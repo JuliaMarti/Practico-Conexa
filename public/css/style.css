@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    letter-spacing: 0px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.white {
+    color: #fff;
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1242px;
+}}
+
+
